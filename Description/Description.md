@@ -10,10 +10,13 @@
 ### Modules which support node project with TS
 1. ***npm i typescript --save-dev***
 2. ***npm i ts-node --save-dev***
-3. ***npm i @types/node***
+3. ***npm i @types/node --save-dev***
 4. **To run the scirpt use: *npx ts-node <scriptName.ts>***
 
 
 ### Recommended plugins for VScode
 1. **JavaScript and TypeScript Nightly** – adds support fot JS/TS Syntax
 2. **Prettier – Code formatter** – Automatically formats the code
+
+ ### Node package description in npmjs
+ ***https://www.npmjs.com/package/ts-node***
