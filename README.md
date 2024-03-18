@@ -1,2 +1,2 @@
-# ts_for_tester
-Basics of TS for API tests
+# TS_for_testers
+Basics of TS for tests
