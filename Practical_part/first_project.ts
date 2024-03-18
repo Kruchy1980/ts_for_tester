@@ -1,2 +1,2 @@
 // THE PART OF FIRST PROJECT
-console.log('Hello TypeScript');
+console.log('Hello TypeScript!!');
