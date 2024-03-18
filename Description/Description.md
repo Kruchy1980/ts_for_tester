@@ -10,7 +10,8 @@
 ### Modules which support node project with TS
 1. ***npm i typescript --save-dev***
 2. ***npm i ts-node --save-dev***
-3. **To run the scirpt use: *npx ts-node <scriptName.ts>***
+3. ***npm i @types/node***
+4. **To run the scirpt use: *npx ts-node <scriptName.ts>***
 
 
 ### Recommended plugins for VScode
