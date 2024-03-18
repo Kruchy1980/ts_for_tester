@@ -1,0 +1,11 @@
+{
+  "name": "practical_part",
+  "version": "1.0.0",
+  "description": "TS for testers - basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JK_QA",
+  "license": "ISC"
+}
