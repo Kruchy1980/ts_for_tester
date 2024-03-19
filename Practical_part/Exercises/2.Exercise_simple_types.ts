@@ -23,8 +23,8 @@
 let userName: string;
 let userId: number;
 // The complex variables - the values must be assigned even thou they are empty arrays
-let userNames: string[] = [];
-let userIds: number[] = [];
+const userNames: string[] = [];
+const userIds: number[] = [];
 // Assign values to  simple types variables
 userName = 'Bob';
 userId = 412;
