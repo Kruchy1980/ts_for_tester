@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "exercise_0": "npx ts-node ./Exercises/1.Run_Console_log.ts",
     "exercise_1": "npx ts-node ./Exercises/2.Exercise_1.ts",
-    "theory_0": "npx ts-node ./Theory/1.Theory_begin.ts"
+    "theory_0": "npx ts-node ./Theory/1.Theory_begin.ts",
+    "theory_1": "npx ts-node ./Theory/2.Theory_simple_types.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
