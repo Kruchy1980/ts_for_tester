@@ -25,3 +25,6 @@
 1. **How t0 Fix error** ***Cannot redeclare block-scoped variable*** -  *https://codingbeautydev.com/blog/typescript-cannot-redeclare-block-scoped-variable/*
 2. **Cannot redeclare block scoped variable** - *https://stackoverflow.com/a/62912102/4285480*
 3. **Types in TS general** - *https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean*
+
+### Any Type information
+***https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any***

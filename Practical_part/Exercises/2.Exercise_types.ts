@@ -1,4 +1,4 @@
-// EXERCISE NO 1 -  SIMPLE TYPES
+// EXERCISE NO 1 - TYPES
 // your task:
 // 1. Declare 4 variables (assign values only to arrays!):
 // - userName with type string
