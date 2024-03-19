@@ -12,7 +12,7 @@
     "theory_1": "npx ts-node ./Theory/2.Theory_simple_types.ts",
     "theory_2": "npx ts-node ./Theory/3.Theory_arrays.ts",
     "theory_3": "npx ts-node ./Theory/4.Theory_any.ts",
-    "theory_4": "npx ts-node ./Theory/4.Theory_functions.ts"
+    "theory_4": "npx ts-node ./Theory/5.Theory_functions.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
