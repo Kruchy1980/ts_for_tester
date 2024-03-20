@@ -33,8 +33,8 @@ enum HeroActions {
     None
 }
 
-console.log(HeroActions[0]);
-console.log(HeroActions[5]);
+// console.log(HeroActions[0]);
+// console.log(HeroActions[5]);
 
 // 2. Declare a function:
 // - with name invokeAction
@@ -49,13 +49,13 @@ const invokeAction = (action: HeroActions): void => {
             console.log(`Hero ${HeroActions[1]}!`);
             break;
         case HeroActions.Move:
-            console.log(`Hero got the ${HeroActions[2]}s`);
+            console.log(`Hero got the ${HeroActions[2]}s.`);
             break;
         case HeroActions.Rest:
             console.log(`Hero ${HeroActions[3]}s!`);
             break;
         default:
-            console.log('Hero is stupid no such an Action!!!');
+            console.log('Hero is confused do not knows what to do');
             break;
     } 
 }
@@ -65,7 +65,7 @@ invokeAction(HeroActions.Defend);
 invokeAction(HeroActions.Move);
 invokeAction(HeroActions.Rest);
 invokeAction(HeroActions.None);
-// invokeAction(HeroActions.None);
+
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
 
