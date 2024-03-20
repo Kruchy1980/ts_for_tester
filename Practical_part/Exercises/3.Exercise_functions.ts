@@ -25,29 +25,32 @@
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
-// 1. Arrow function declaration SOLUTION_1
+// 1. Arrow function declaration SOLUTION_1_A
 const formatStrings = (par_1: string, par_2: string): string => {
     return `Opening page '${par_1}' and checking '${par_2}'`;
 }
 console.log(formatStrings('LoginPage', 'UserName'));
-// 2. Arrow function declaration SOLUTION_2_A
+// 1. Arrow function declaration SOLUTION_1_B = Shorter
+const formatStrings_1 = (par_1: string, par_2: string): string => `Opening page '${par_1}' and checking '${par_2}'`;
+console.log(formatStrings_1('CarrerPage', 'UserName'));
+// 3. Arrow function declaration SOLUTION_2_A
 function formatStrings1(par_1: string, par_2: string): any {
     return `Opening page '${par_1}' and checking '${par_2}'`;
 }
 const formatStringsOutput = formatStrings1('HomePage', 'UserName');
 console.log(formatStringsOutput);
-// 3. Arrow function declaration SOLUTION_2_B
+// 4. Arrow function declaration SOLUTION_2_B
 function formatStrings2(par_1: any, par_2: any): string {
     return `Opening page '${par_1}' and checking '${par_2}'`;
 }
-const formatStringsOutput_1 = formatStrings2('HomePage- Any', 'UserName- Any');
+const formatStringsOutput_1 = formatStrings2('Blog - Any', 'UserName - Any');
 console.log(formatStringsOutput_1);
-// 4. Arrow function declaration SOLUTION_3 - Anonymous
+// 5. Arrow function declaration SOLUTION_3_A - Anonymous
 const anonymousFunctionOutput = function() {
     return `Opening page 'ContactPage' and checking 'UserName'`;
 }
 console.log(anonymousFunctionOutput());
-// 4. Arrow function declaration SOLUTION_3 - Anonymous plus Default value
+// 6. Arrow function declaration SOLUTION_3_B - Anonymous plus Default value
 const anonymousFunctionOutput_1 = function(par1: string, par2 = 'UserName'): string {
     return `Opening page '${par1}' and checking '${par2}'`;
 }
