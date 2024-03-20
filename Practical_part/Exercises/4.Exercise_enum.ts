@@ -24,7 +24,44 @@
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
+// 1.Enum heroActions with following values: Attack, Defend, Move, Rest
+enum HeroActions {
+    Attack,
+    Defend,
+    Move,
+    Rest
+}
 
+console.log(HeroActions[0]);
+// 2. Declare a function:
+// - with name invokeAction
+// - with one parameter action of type HeroActions
+// - with return type string
+const invokeAction = (action: HeroActions): void => {
+    switch(action) {
+        case HeroActions.Attack:
+            console.log(`Hero ${HeroActions[0]}!`);
+            break;
+        case HeroActions.Defend:
+            console.log(`Hero ${HeroActions[1]}!`);
+            break;
+        case HeroActions.Move:
+            console.log(`Hero got the ${HeroActions[2]}s`);
+            break;
+        case HeroActions.Rest:
+            console.log(`Hero ${HeroActions[3]}s!`);
+            break;
+        default:
+            console.log('Hero is stupid no such an Action!!!');
+            break;
+    } 
+}
+// 4. Test your solution with all values from enum HeroActions
+invokeAction(HeroActions.Attack);
+invokeAction(HeroActions.Defend);
+invokeAction(HeroActions.Move);
+invokeAction(HeroActions.Rest);
+// invokeAction(HeroActions.None);
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
 
