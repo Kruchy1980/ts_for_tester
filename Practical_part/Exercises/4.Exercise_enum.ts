@@ -29,10 +29,13 @@ enum HeroActions {
     Attack,
     Defend,
     Move,
-    Rest
+    Rest,
+    None
 }
 
 console.log(HeroActions[0]);
+console.log(HeroActions[5]);
+
 // 2. Declare a function:
 // - with name invokeAction
 // - with one parameter action of type HeroActions
@@ -61,6 +64,7 @@ invokeAction(HeroActions.Attack);
 invokeAction(HeroActions.Defend);
 invokeAction(HeroActions.Move);
 invokeAction(HeroActions.Rest);
+invokeAction(HeroActions.None);
 // invokeAction(HeroActions.None);
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
