@@ -8,11 +8,14 @@
     "exercise_0": "npx ts-node ./Exercises/1.Run_Console_log.ts",
     "exercise_1": "npx ts-node ./Exercises/2.Exercise_types.ts",
     "exercise_2": "npx ts-node ./Exercises/3.Exercise_functions.ts",
+    "exercise_3": "npx ts-node ./Exercises/4.Exercise_enum.ts",
     "theory_0": "npx ts-node ./Theory/1.Theory_begin.ts",
     "theory_1": "npx ts-node ./Theory/2.Theory_simple_types.ts",
     "theory_2": "npx ts-node ./Theory/3.Theory_arrays.ts",
     "theory_3": "npx ts-node ./Theory/4.Theory_any.ts",
-    "theory_4": "npx ts-node ./Theory/5.Theory_functions.ts"
+    "theory_4": "npx ts-node ./Theory/5.Theory_functions.ts",
+    "theory_5": "npx ts-node ./Theory/6.Theory_union.ts",
+    "theory_6": "npx ts-node ./Theory/7.Theory_enum.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
