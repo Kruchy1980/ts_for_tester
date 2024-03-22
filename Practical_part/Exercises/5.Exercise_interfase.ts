@@ -18,6 +18,30 @@
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
+// Interface declaration
+interface UserData {
+    id: number;
+    fullName: string;
+    pass: string;
+    age: number;
+    optional?: string;
+}
+// Adding values to interface full object
+const user_1: UserData = {
+    id: 1,
+    fullName: 'John Doe',
+    pass: 'a#a%a_K0t#',
+    age: 24,
+    optional: 'The first user from interface',
+}
+// Adding other object without optional field
+const user_2: UserData = {
+    id: 2,
+    fullName: 'Kate Doe',
+    pass: 'Ol!gArc#y',
+    age: 24,
+}
+// TODO tomorrow finish the task 
 
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
