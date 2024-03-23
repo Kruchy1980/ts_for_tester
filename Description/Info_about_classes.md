@@ -5,3 +5,6 @@
 2. **Classes and constructors** - *Only for the Course* - ***https://jaktestowac.pl/lesson/api6s03l07/***
 3. **TS - Classes** - ***https://www.typescriptlang.org/docs/handbook/2/classes.html#handbook-content***
 4. **TS - Object types** - ***https://www.typescriptlang.org/docs/handbook/2/classes.html#handbook-content***
+
+### Errors:
+1. **Error types** - *https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#error_types*

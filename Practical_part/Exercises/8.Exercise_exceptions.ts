@@ -26,10 +26,15 @@ function getRandomValue(primaryIndex: number, secondaryIndex: number): string {
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
-
-function getRandomValueProxy(primaryIndex: number, secondaryIndex: number): string {
-    return getRandomValue(primaryIndex, secondaryIndex)
+function getRandomValueProxy(primaryIndex: number, secondaryIndex: number): any {
+    try {
+        return getRandomValue(primaryIndex, secondaryIndex);
+    } catch {
+        console.log('An error occurred!');
+        return 'error!'
+    }
 }
+
 
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
