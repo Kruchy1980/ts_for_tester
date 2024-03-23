@@ -39,34 +39,37 @@ class TransactionData {
     // Class values - access modificators
     // private - visible only for the specific class
     // public - visible everywhere
-    // protected - no possible to be changed
+    // protected - visible inside class and all inheritated classes
     private id: string;
     public version: number;
     // Constructor
-    constructor(id: string, version: number) {
+    constructor(id: string) {
         this.id = id
         this.version = 0;
     }
-    // Class method
+    // Class method - arrow function
     // doOperation = (): string | number => {
     //     // console.log(`Last value of version: ${this.version}`);
     //     this.version++;
     //     return `Last value of version: ${this.version}`;
     // }
-    // Class method
-    public doOperation(): void {
+    // Class method - literal function
+    public doOperation(): number { //<-- always mus fit to returned value - version is number 
         console.log(`Last value of version: ${this.version}`);
         this.version++;
-        // return `Last value of version: ${this.version}`;
+        return this.version;
     }
 }
 // 2. Create object from class TransactionData
-const trans_1 = new TransactionData('1', 0);
+const trans_1 = new TransactionData('1');
 
 // 3. Invoke method doOperation() 4 times
 for (let i = 0; i < 4; i++) {
     trans_1.doOperation();
 };
+// 4. Print return value of last invoked doOperation()
+console.log(trans_1.version);
+// Out of the exercise
 // console.log(trans_1.doOperation());
 // console.log(trans_1.doOperation());
 // console.log(trans_1.doOperation());
