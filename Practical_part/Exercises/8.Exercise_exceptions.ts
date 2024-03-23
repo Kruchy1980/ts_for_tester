@@ -26,7 +26,7 @@ function getRandomValue(primaryIndex: number, secondaryIndex: number): string {
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
-function getRandomValueProxy(primaryIndex: number, secondaryIndex: number): any {
+function getRandomValueProxy(primaryIndex: number, secondaryIndex: number): string {
     try {
         return getRandomValue(primaryIndex, secondaryIndex);
     } catch {
