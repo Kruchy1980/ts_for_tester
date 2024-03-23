@@ -21,7 +21,8 @@
     "theory_6": "npx ts-node ./Theory/7.Theory_enum.ts",
     "theory_7": "npx ts-node ./Theory/8.Theory_interfases.ts",
     "theory_8": "npx ts-node ./Theory/9.Theory_class-object-method.ts",
-    "theory_9": "npx ts-node ./Theory/10.Theory_inheritance.ts"
+    "theory_9": "npx ts-node ./Theory/10.Theory_inheritance.ts",
+    "theory_10": "npx ts-node ./Theory/11.Theory_inheritance-cast.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
