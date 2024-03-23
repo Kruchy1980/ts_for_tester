@@ -1,4 +1,11 @@
-// THIS PART IS DEDICATED TO INHERITANCE BETWEEN CLASSES - "exercise_6"
+// THIS EXERCISE IS DEDICATED TO INHERITANCE AND CASTING (Rzutowanie) BETWEEN CLASSES - "exercise_6"
+/* Casting is used for
+1. Changing JSON types
+2. Maintenance of JSON Data
+3. Mutating Interfaces
+4. Work with different library versions
+5. Avoiding version compilations 
+*/
 // your task:
 // 1. Declare first class with following details:
 // - name: Animal
@@ -57,20 +64,20 @@ class Animal {
 // --- this should return string In this format: "My type is cat and my age is 2"
 class Cat extends Animal {
     // Constructor must be declared
-    constructor(type: string) {
-        super(type = 'Cat');
+    constructor() {
+        super('cat');
     }
     // Method for increment animal age by 1
-    increaseAge = (): void => {
+    public increaseAge = (): void => {
         this.age++;
     }
-    present() {
+    public present() {
         return `My type is ${this.type} and my age is ${this.age}`;
     }
 }
 
 // 3. Create object from class Cat
-const animal_1 = new Cat('Cat');
+const animal_1 = new Cat();
 // 4. Invoke method increaseAge() 2 times
 animal_1.increaseAge();
 animal_1.increaseAge();
