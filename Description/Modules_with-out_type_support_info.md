@@ -28,3 +28,9 @@
 6. **List of installed packages after deinstallation**
 
 *npm list*
+
+## SOME INFORMATION ABOUT INSTALLING PACKAGES WITHOUT TYPES SUPPORT EXAMPLES
+1. **Example of module without support for types** - *https://www.npmjs.com/package/supertest* <-- Pay attention for **"DT"** icon displayed on the right side of package name
+2. **For the packages without support of types the other module if available is needed to be installed** - *https://www.npmjs.com/package/@types/supertest*
+### IMPORTANT
+#### The main module must be installed as first and after the patch for types accordingly to the module

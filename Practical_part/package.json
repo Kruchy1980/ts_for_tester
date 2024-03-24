@@ -28,7 +28,8 @@
     "theory_11": "npx ts-node ./Theory/12.Theory_exception_try_catch.ts",
     "theory_12": "npx ts-node ./Theory/13.Theory_type_guards.ts",
     "theory_13": "npx ts-node ./Theory/14.Theory_modules.ts",
-    "theory_14": "npx ts-node ./Theory/15.Theory_Modules_with_support.ts"
+    "theory_14": "npx ts-node ./Theory/15.Theory_Modules_with_support.ts",
+    "theory_15": "npx ts-node ./Theory/16.Theory_Modules_without_support.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
