@@ -22,25 +22,25 @@
 // to test your solution in terminal you can run following command:
 // npm run ex3-2
 
-// import { cheatAndPeekProjectSettings, loadProjectSettings, saveProjectSettings } from "./helpers/async.helpers"
+// import { cheatAndPeekProjectSettings, loadProjectSettings, saveProjectSettings } from "./helpers/async.helpers";
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
 
 // 1:
-console.log("1:")
-// cheatAndPeekProjectSettings()
+console.log("1:");
+// cheatAndPeekProjectSettings();
 
 // 2:
-console.log("2:")
+console.log("2:");
 
 // 3:
 
 // 4:
-console.log("4:")
+console.log("4:");
 
 // 5:
-console.log("5:")
+console.log("5:");
 
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
