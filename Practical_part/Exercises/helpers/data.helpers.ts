@@ -5,7 +5,7 @@
 // -- will return a number
 // -- inside function check values in given list and will return largest number
 // const values = [8, 4, 38, 4, 2, -2, 2];
-// export let largest = 0; 
+// Function for verification of max number in array
 export const getBiggestNumber = (data: number[]): number => {
     let maxNum = 0;
     for (let i=0; i < data.length; i++) {
@@ -15,4 +15,10 @@ export const getBiggestNumber = (data: number[]): number => {
     };
     return maxNum;
 }
+// Function for verification of min number in array using spread operator
+export const getSmallerNumber = (data: number[]): number => {
+    let result = Math.min(...data);
+    return result
+}
 // console.log(getBiggestNumber(values));
+// console.log(getSmallerNumber(values));
