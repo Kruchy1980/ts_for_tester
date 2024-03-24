@@ -22,24 +22,46 @@
 // to test your solution in terminal you can run following command:
 // npm run ex3-2
 
-// import { cheatAndPeekProjectSettings, loadProjectSettings, saveProjectSettings } from "./helpers/async.helpers";
+import {
+  cheatAndPeekProjectSettings,
+  loadProjectSettings,
+  saveProjectSettings,
+} from './helpers/async.helpers';
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
 
 // 1:
+// 1. Use function saveProjectSettings to add setting value:
+// -- this function need 2 parameters - key and value - use 'Firefox' and '1'
+// -- You can use cheatAndPeekProjectSettings() to check if value was properly added
+// -- get return value and display it on console in format: 'Result after save:', result
 console.log("1:");
-// cheatAndPeekProjectSettings();
+const value_1 = await saveProjectSettings('Firefox',  '1');
+console.log (value_1);
+cheatAndPeekProjectSettings();
 
 // 2:
+// 2. Use function loadProjectSettings to read all settings:
+// -- load all setting and display them on console (using console.log())
+
 console.log("2:");
+const loadedValue = await loadProjectSettings();
+console.log(loadedValue);
 
 // 3:
+// 3. Write a function with name 'loadValue' to load specific settings value:
+// -- loadValue should have one parameter - key
+// -- loadValue should return value of that key from settings (from loadProjectSettings)
 
 // 4:
+// 4. Use function 'loadValue' to display value of key 'headless' from settings
+
 console.log("4:");
 
 // 5:
+// 5. Use function 'loadValue' to display value of key 'Chrome' from settings
+
 console.log("5:");
 
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
@@ -61,4 +83,4 @@ console.log("5:");
 // > loadProjectSettings...
 // Chrome value: undefined
 // Ignore this line - used to be able to redeclare variables in this project
-export {};
+// export {};
