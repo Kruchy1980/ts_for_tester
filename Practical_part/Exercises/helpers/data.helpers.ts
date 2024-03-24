@@ -5,9 +5,9 @@
 // -- will return a number
 // -- inside function check values in given list and will return largest number
 // const values = [8, 4, 38, 4, 2, -2, 2];
-export let largest = 0; 
-export const getBiggestNumber = (data: number[], maxNum: number): number => {
-    maxNum = 0;
+// export let largest = 0; 
+export const getBiggestNumber = (data: number[]): number => {
+    let maxNum = 0;
     for (let i=0; i < data.length; i++) {
         if (data[i] > maxNum) {
             maxNum = data[i];
@@ -15,4 +15,4 @@ export const getBiggestNumber = (data: number[], maxNum: number): number => {
     };
     return maxNum;
 }
-// console.log(getBiggestNumber(values, largest));
+// console.log(getBiggestNumber(values));
