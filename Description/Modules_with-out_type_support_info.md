@@ -34,3 +34,6 @@
 2. **For the packages without support of types the other module if available is needed to be installed** - *https://www.npmjs.com/package/@types/supertest*
 ### !!! IMPORTANT
 #### The main module must be installed as first and after the patch for types accordingly to the module
+
+### Additional info add later to async await
+*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals*

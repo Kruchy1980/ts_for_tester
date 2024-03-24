@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "TS for testers - basics",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "exercise_0": "npx ts-node ./Exercises/1.Run_Console_log.ts",

@@ -24,7 +24,6 @@
 
 import {
   cheatAndPeekProjectSettings,
-  loadProjectSettings,
   saveProjectSettings,
 } from './helpers/async.helpers';
 
@@ -37,17 +36,20 @@ import {
 // -- You can use cheatAndPeekProjectSettings() to check if value was properly added
 // -- get return value and display it on console in format: 'Result after save:', result
 console.log("1:");
-const value_1 = await saveProjectSettings('Firefox',  '1');
-console.log (value_1);
+cheatAndPeekProjectSettings();
+
+const valueMFf = await saveProjectSettings('Firefox', '1');
+console.log(`Result after save: ${valueMFf}`);
+
 cheatAndPeekProjectSettings();
 
 // 2:
 // 2. Use function loadProjectSettings to read all settings:
 // -- load all setting and display them on console (using console.log())
 
-console.log("2:");
-const loadedValue = await loadProjectSettings();
-console.log(loadedValue);
+// console.log("2:");
+// const loadedValue =  loadProjectSettings();
+// // console.log(loadedValue);
 
 // 3:
 // 3. Write a function with name 'loadValue' to load specific settings value:
