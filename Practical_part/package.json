@@ -14,6 +14,7 @@
     "exercise_6": "npx ts-node ./Exercises/7.Exercise_inheritance.ts",
     "exercise_7": "npx ts-node ./Exercises/8.Exercise_exceptions.ts",
     "exercise_8": "npx ts-node ./Exercises/9.Exercise_own_modules.ts",
+    "exercise_9": "npx ts-node ./Exercises/10.Exercise_async_sync.ts",
     "theory_0": "npx ts-node ./Theory/1.Theory_begin.ts",
     "theory_1": "npx ts-node ./Theory/2.Theory_simple_types.ts",
     "theory_2": "npx ts-node ./Theory/3.Theory_arrays.ts",
@@ -29,7 +30,8 @@
     "theory_12": "npx ts-node ./Theory/13.Theory_type_guards.ts",
     "theory_13": "npx ts-node ./Theory/14.Theory_modules.ts",
     "theory_14": "npx ts-node ./Theory/15.Theory_Modules_with_support.ts",
-    "theory_15": "npx ts-node ./Theory/16.Theory_Modules_without_support.ts"
+    "theory_15": "npx ts-node ./Theory/16.Theory_Modules_without_support.ts",
+    "theory_16": "npx ts-node ./Theory/17.Theory_sync_async.ts"
   },
   "author": "JK_QA",
   "license": "ISC",
