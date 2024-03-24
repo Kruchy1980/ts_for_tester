@@ -24,8 +24,9 @@
 
 import {
   cheatAndPeekProjectSettings,
+  loadProjectSettings,
   saveProjectSettings,
-} from './helpers/async.helpers';
+} from './helpers/async_helpers';
 
 //// TODO:
 //// -----------------------HERE PLACE YOUR SOLUTION:-------------------------
@@ -47,24 +48,31 @@ cheatAndPeekProjectSettings();
 // 2. Use function loadProjectSettings to read all settings:
 // -- load all setting and display them on console (using console.log())
 
-// console.log("2:");
-// const loadedValue =  loadProjectSettings();
-// // console.log(loadedValue);
+console.log("2:");
+const loadedValue = await loadProjectSettings();
+console.log(loadedValue);
 
 // 3:
 // 3. Write a function with name 'loadValue' to load specific settings value:
 // -- loadValue should have one parameter - key
 // -- loadValue should return value of that key from settings (from loadProjectSettings)
+const loadValue = async (key: string): Promise<string> => {
+  const settingsLoaded = await loadProjectSettings();
+  return settingsLoaded[key];
+}
 
 // 4:
 // 4. Use function 'loadValue' to display value of key 'headless' from settings
-
 console.log("4:");
+const valueForHeadless = await loadValue('headless');
+console.log('the value for headless', valueForHeadless);
 
 // 5:
 // 5. Use function 'loadValue' to display value of key 'Chrome' from settings
 
 console.log("5:");
+const customizedValue = await loadValue('Google Chrome');
+console.log('Customized value', customizedValue);
 
 //// -----------------------DON'T MODIFY CODE BELOW!-------------------------
 // Here you will find expected result of exercise
