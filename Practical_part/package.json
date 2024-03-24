@@ -13,6 +13,7 @@
     "exercise_5": "npx ts-node ./Exercises/6.Exercise_classes.ts",
     "exercise_6": "npx ts-node ./Exercises/7.Exercise_inheritance.ts",
     "exercise_7": "npx ts-node ./Exercises/8.Exercise_exceptions.ts",
+    "exercise_8": "npx ts-node ./Exercises/9.Exercise_own_modules.ts",
     "theory_0": "npx ts-node ./Theory/1.Theory_begin.ts",
     "theory_1": "npx ts-node ./Theory/2.Theory_simple_types.ts",
     "theory_2": "npx ts-node ./Theory/3.Theory_arrays.ts",
